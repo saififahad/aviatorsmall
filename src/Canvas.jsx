@@ -744,9 +744,9 @@ const CanvasAnimation = memo(({}) => {
                 {planeValue}
                 <span>X</span>
               </div>
-              {sound && !planeCrashed && (
+              {/* {sound && !planeCrashed && (
                 <ReactAudioPlayer src={backgroundSound} autoPlay={true} />
-              )}
+              )} */}
             </>
           )}
         </div>
