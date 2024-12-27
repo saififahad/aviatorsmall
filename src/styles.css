@@ -3890,3 +3890,23 @@ canvas {
 .go1495885038 {
   display: none;
 }
+
+.wheel {
+  width: 120px;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .wheel {
+    width: 60px;
+  }
+}
