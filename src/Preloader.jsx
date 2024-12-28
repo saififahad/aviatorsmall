@@ -1,11 +1,11 @@
-import wheel from "./assets/wheel.png";
+import pump from "./assets/pump.png";
 
 const PreLoader = () => {
   return (
     <div className="load-txt">
       <div className="loading-game-1">
         <div className="center-loading text-white text-center">
-          <img src={wheel} alt="Wheel" className="wheel" />
+          <img src={pump} alt="Wheel" className="wheel" />
           <div className="secondary-font f-40 mt-2 waiting-text">
             WAITING FOR NEXT ROUND
           </div>
